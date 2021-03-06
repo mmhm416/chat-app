@@ -1,7 +1,7 @@
 class RoomsController < ApplicationController
 
   def new
-  @rooms = Room.new
+  @room = Room.new
   end
 
   def create
@@ -11,6 +11,7 @@ class RoomsController < ApplicationController
     else
       render :new
     end
+
   end
 
   private
