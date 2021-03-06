@@ -8,7 +8,7 @@
   height: 100vh;
 }
 
-.sidebar-header{
+.side-bar-header{
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
@@ -31,7 +31,7 @@
   border: 1px solid lightblue;
 }
 
-.rooms{
+.rooms {
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
